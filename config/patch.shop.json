@@ -1,0 +1,23 @@
+{
+  "shop_class": "bf/bS/e",
+  "schema": [
+    "L2135:  getstatic Field bf/bS/e bn Ljava/util/List;\nL2138:  new bf/bz/e\nL2141:  dup\nL2142:  getstatic Field bf/cs/e kG Lnet/minecraftforge/registries/RegistryObject;\nL2145:  invokevirtual Method net/minecraftforge/registries/RegistryObject get ()Ljava/lang/Object;\nL2148:  checkcast net/minecraft/world/item/Item\nL2151:  sipush 500\nL2154:  invokespecial Method bf/bz/e <init> (Lnet/minecraft/world/item/Item;I)V\nL2157:  invokeinterface InterfaceMethod java/util/List add (Ljava/lang/Object;)Z 2\nL2162:  pop\n",
+    "kG",
+    "500",
+    [
+      ["L2135","L3X35"],
+      ["L2138","L3X38"],
+      ["L2141","L3X41"],
+      ["L2142","L3X42"],
+      ["L2145","L3X45"],
+      ["L2148","L3X48"],
+      ["L2151","L3X51"],
+      ["L2154","L3X54"],
+      ["L2157","L3X57"],
+      ["L2162","L3X62"]
+    ]
+  ],
+  "items": [
+    ["ir", "100"]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "map_class": "bf/cg/c",
+  "maps": {
+    "inf": [
+      "Cabin",
+      "Sewers",
+      "Hospital"
+    ]
+  },
+  "dom": [
+    "L176:   ldc \"Zemsta\"\nL178:   invokevirtual Method bf/cg/c b (Ljava/lang/String;)Lbf/cg/c;",
+    "Zemsta",
+    [
+      ["L176","L6X0"],
+      ["L178","L6X2"]
+    ]
+  ],
+  "tdm": [
+    "L258:   ldc \"Nuketown\"\nL260:   invokevirtual Method bf/cg/c b (Ljava/lang/String;)Lbf/cg/c;",
+    "Nuketown",
+    [
+      ["L258","L7X0"],
+      ["L260","L7x2"]
+    ]
+  ],
+  "gg": [
+    "L295:   ldc \"Asylum\"\nL297:   invokevirtual Method bf/cg/c b (Ljava/lang/String;)Lbf/cg/c;",
+    "Asylum",
+    [
+      ["L295","L8X0"],
+      ["L297","L8X2"]
+    ]
+  ],
+  "ffa": [
+    "L337:   ldc \"Asylum\"\nL339:   invokevirtual Method bf/cg/c b (Ljava/lang/String;)Lbf/cg/c;",
+    "Asylum",
+    [
+      ["L337","L9X0"],
+      ["L339","L9X2"]
+    ]
+  ],
+  "inf": [
+    "L369:   ldc \"Nezhit\"\nL371:   invokevirtual Method bf/cg/c b (Ljava/lang/String;)Lbf/cg/c;\n",
+    "Nezhit",
+    [
+      ["L369", "L10X0"],
+      ["L371", "L10X2"]
+    ]
+  ]
+}
