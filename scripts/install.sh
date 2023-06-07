@@ -11,5 +11,5 @@ done
 
 cargo install --git https://github.com/Storyyeller/Krakatau.git --branch v2
 
-mkdir "ServerInstance"
+mkdir -p "ServerInstance"
 curl $FORGE_INSTALLER_URL -o ServerInstance/forge-installer.jar
