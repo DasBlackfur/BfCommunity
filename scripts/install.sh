@@ -9,7 +9,7 @@ do
   sudo apt install -y "$n"
 done
 
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+command -v rustc >/dev/null 2>&1 || { curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y; source "$HOME/.cargo/env"; }
 
 cargo install --git https://github.com/Storyyeller/Krakatau.git --branch v2
 
