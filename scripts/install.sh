@@ -13,6 +13,8 @@ command -v rustc >/dev/null 2>&1 || { curl --proto '=https' --tlsv1.2 -sSf https
 
 cargo install --git https://github.com/Storyyeller/Krakatau.git --branch v2
 
-mkdir -p "ServerInstance"
-rm ServerInstance/forge-installer.jar
-curl $FORGE_INSTALLER_URL -o ServerInstance/forge-installer.jar
+rm -rf ~/ServerInstance
+mkdir -p ~/ServerInstance
+
+curl $FORGE_INSTALLER_URL -o ~/ServerInstance/forge-installer.jar
+java -jar ~/ServerInstance/forge-installer.jar --installServer ~/ServerInstance
