@@ -21,21 +21,12 @@ class Patch:
         os.system(f"krak2 asm {self.path}.j --out {self.path}.class")
 
 
-bfjarname = "BlockFront-1.19.4-0.1.9.0a-RELEASE.jar"
+bfjarname = "bf.jar"
 libjarname = "library-2.4.3.jar"
 bf_patchlist = []
 lib_patchlist = []
 
 start = time.time()
-print("Cleaning up...")
-
-if not os.path.exists(f"../mods/{bfjarname}.orig"):
-    print("No jar backup found, creating...")
-    os.system(f"cp ../mods/{bfjarname} ../mods/{bfjarname}.orig")
-else:
-    print("Jar backup found, copying...")
-    os.system(f"cp ../mods/{bfjarname}.orig ../mods/{bfjarname}")
-
 print("Reading patch file...")
 with open("../config/patch.json", "r") as readfile:
     patchjson = json.load(readfile)
@@ -77,13 +68,13 @@ with open("../config/patch.shop.json", "r") as readfile:
 print("Applying bf patches...")
 for patch in bf_patchlist:
     print(f"Extracting {patch.path}...")
-    os.system(f"jar xf ../mods/{bfjarname} {patch.path}.class")
+    os.system(f"jar xf ./{bfjarname} {patch.path}.class")
     print(f"Modifying {patch.path}...")
     patch.apply()
-    os.system(f"jar uf ../mods/{bfjarname} {patch.path}.class")
+    os.system(f"jar uf ./{bfjarname} {patch.path}.class")
 
 print("Extracting library...")
-os.system(f"jar xf ../mods/{bfjarname} META-INF/jarjar/{libjarname}")
+os.system(f"jar xf ./{bfjarname} META-INF/jarjar/{libjarname}")
 
 print("Applying library patches...")
 for patch in lib_patchlist:
@@ -94,6 +85,6 @@ for patch in lib_patchlist:
     os.system(f"jar uf META-INF/jarjar/{libjarname} {patch.path}.class")
 
 print("Inserting library into jar...")
-os.system(f"jar uf ../mods/{bfjarname} META-INF/jarjar/{libjarname}")
+os.system(f"jar uf ./{bfjarname} META-INF/jarjar/{libjarname}")
 end = time.time()
 print(f"Done took {(end - start):.2f}s")
