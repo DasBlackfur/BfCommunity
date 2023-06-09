@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 FORGE_INSTALLER_URL="https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.4-45.0.66/forge-1.19.4-45.0.66-installer.jar"
 BF_MOD_URL="https://mediafilez.forgecdn.net/files/4557/476/BlockFront-1.19.4-0.1.9.0a-RELEASE.jar"
-DEB_DEPENDENCIES=( openjdk-17-jre-headless python3 curl )
+DEB_DEPENDENCIES=( openjdk-17-jdk-headless python3 curl )
 
 echo "BY RUNNING THIS INSTALLER YOU ACCEPT THE MINECRAFT EULA!"
 
@@ -27,9 +27,10 @@ echo 'java @user_jvm_args.txt @libraries/net/minecraftforge/forge/1.19.4-45.0.66
 rm -rf ./tmp
 mkdir -p ./tmp
 
-curl $BF_MOD_URL -o ./tmp/bf.ar
+curl $BF_MOD_URL -o ./tmp/bf.jar
 cd ./tmp || exit 1
-python3 ../sripts/patch.py
+python3 ../scripts/patch.py
+mkdir -p ~/ServerInstance/mods
 cp ./bf.jar ~/ServerInstance/mods/
 
 python3 ../scripts/configure.py
