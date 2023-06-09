@@ -20,3 +20,5 @@ curl $FORGE_INSTALLER_URL -o ~/ServerInstance/forge-installer.jar
 java -jar ~/ServerInstance/forge-installer.jar --installServer ~/ServerInstance
 
 echo "eula=true" > ~/ServerInstance/eula.txt
+rm ~/ServerInstance/run.sh
+echo 'java @user_jvm_args.txt @libraries/net/minecraftforge/forge/1.19.4-45.0.66/unix_args.txt nogui "$@' > ~/ServerInstance/run.sh
