@@ -33,5 +33,5 @@ python3 ../scripts/patch.py
 mkdir -p ~/ServerInstance/mods
 cp ./bf.jar ~/ServerInstance/mods/
 
-python3 ../scripts/configure.py
+cp ../config/server.properties ~/ServerInstance/
 echo "INSTALLATION FINISHED YOU CAN RUN THE run.sh FILE NOW!"
