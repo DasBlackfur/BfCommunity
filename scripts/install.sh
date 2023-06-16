@@ -14,6 +14,8 @@ done
 command -v rustc >/dev/null 2>&1 || { curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y; source "$HOME/.cargo/env"; }
 cargo install --git https://github.com/Storyyeller/Krakatau.git --branch v2
 
+command -v minecraft-world-splicer >/dev/null 2>&1 || { curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash; export NVM_DIR="$HOME/.nvm"; [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"; nvm install node; npm install -g https://github.com/DasBlackfur/minecraft-world-splicer.git; }
+
 rm -rf ~/ServerInstance
 mkdir -p ~/ServerInstance
 
@@ -34,4 +36,5 @@ mkdir -p ~/ServerInstance/mods
 cp ./bf.jar ~/ServerInstance/mods/
 
 cp ../config/server.properties ~/ServerInstance/
+
 echo "INSTALLATION FINISHED YOU CAN RUN THE run.sh FILE NOW!"
