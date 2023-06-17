@@ -1,0 +1,162 @@
+[
+  {
+    "tag": "skyColor",
+    "type": 1,
+    "data": {
+      "tag": "skyColor",
+      "value": 0
+    }
+  },
+  {
+    "tag": "hasCustomFog",
+    "type": 4,
+    "data": {
+      "tag": "hasCustomFog",
+      "value": true
+    }
+  },
+  {
+    "tag": "author",
+    "type": 2,
+    "data": {
+      "tag": "author",
+      "value": "Blackfur\u0026Kamelkatze"
+    }
+  },
+  {
+    "tag": "alliesTeam",
+    "type": 1,
+    "data": {
+      "tag": "alliesTeam",
+      "value": 2
+    }
+  },
+  {
+    "tag": "environmentType",
+    "type": 1,
+    "data": {
+      "tag": "environmentType",
+      "value": 5
+    }
+  },
+  {
+    "tag": "hasCustomWater",
+    "type": 4,
+    "data": {
+      "tag": "hasCustomWater",
+      "value": false
+    }
+  },
+  {
+    "tag": "hasCustomSky",
+    "type": 4,
+    "data": {
+      "tag": "hasCustomSky",
+      "value": false
+    }
+  },
+  {
+    "tag": "soundIndoors",
+    "type": 2,
+    "data": {
+      "tag": "soundIndoors",
+      "value": "bf:ambient.loop.interior.house"
+    }
+  },
+  {
+    "tag": "soundOutdoors",
+    "type": 2,
+    "data": {
+      "tag": "soundOutdoors",
+      "value": "bf:ambient.loop.wind"
+    }
+  },
+  {
+    "tag": "weatherEffectsSize",
+    "type": 1,
+    "data": {
+      "tag": "weatherEffectsSize",
+      "value": 0
+    }
+  },
+  {
+    "tag": "fogDensityNear",
+    "type": 7,
+    "data": {
+      "tag": "fogDensityNear",
+      "value": 0.0
+    }
+  },
+  {
+    "tag": "gameEventBuilderSize",
+    "type": 1,
+    "data": {
+      "tag": "gameEventBuilderSize",
+      "value": 0
+    }
+  },
+  {
+    "tag": "waterColor",
+    "type": 1,
+    "data": {
+      "tag": "waterColor",
+      "value": 0
+    }
+  },
+  {
+    "tag": "mapEffectSize",
+    "type": 1,
+    "data": {
+      "tag": "mapEffectSize",
+      "value": 0
+    }
+  },
+  {
+    "tag": "mapTime",
+    "type": 1,
+    "data": {
+      "tag": "mapTime",
+      "value": 19500
+    }
+  },
+  {
+    "tag": "fogColor",
+    "type": 1,
+    "data": {
+      "tag": "fogColor",
+      "value": -16777216
+    }
+  },
+  {
+    "tag": "name",
+    "type": 2,
+    "data": {
+      "tag": "name",
+      "value": "Cabin"
+    }
+  },
+  {
+    "tag": "axisTeam",
+    "type": 1,
+    "data": {
+      "tag": "axisTeam",
+      "value": 10
+    }
+  },
+  {
+    "tag": "cutsceneSize",
+    "type": 1,
+    "data": {
+      "tag": "cutsceneSize",
+      "value": 0
+    }
+  },
+  {
+    "tag": "fogDensityFar",
+    "type": 7,
+    "data": {
+      "tag": "fogDensityFar",
+      "value": 15.0
+    }
+  }
+]

@@ -1,0 +1,2862 @@
+[
+  {
+    "tag": "gameType",
+    "type": 2,
+    "data": {
+      "tag": "gameType",
+      "value": "inf"
+    }
+  },
+  {
+    "tag": "gameTag",
+    "type": 3,
+    "data": [
+      {
+        "tag": "blgunStore0",
+        "type": 3,
+        "data": [
+          {
+            "tag": "blockLocation-YAW",
+            "type": 7,
+            "data": {
+              "tag": "blockLocation-YAW",
+              "value": 4.484619
+            }
+          },
+          {
+            "tag": "blockLocation-X",
+            "type": 6,
+            "data": {
+              "tag": "blockLocation-X",
+              "value": 2932.699999988079
+            }
+          },
+          {
+            "tag": "blockLocation-PITCH",
+            "type": 7,
+            "data": {
+              "tag": "blockLocation-PITCH",
+              "value": -2.9519763
+            }
+          },
+          {
+            "tag": "blockLocation-Z",
+            "type": 6,
+            "data": {
+              "tag": "blockLocation-Z",
+              "value": 1298.300000011921
+            }
+          },
+          {
+            "tag": "blockLocation-Y",
+            "type": 6,
+            "data": {
+              "tag": "blockLocation-Y",
+              "value": 91.0
+            }
+          }
+        ]
+      },
+      {
+        "tag": "zDoor0",
+        "type": 3,
+        "data": [
+          {
+            "tag": "posX",
+            "type": 1,
+            "data": {
+              "tag": "posX",
+              "value": 2958
+            }
+          },
+          {
+            "tag": "posY",
+            "type": 1,
+            "data": {
+              "tag": "posY",
+              "value": 80
+            }
+          },
+          {
+            "tag": "posZ",
+            "type": 1,
+            "data": {
+              "tag": "posZ",
+              "value": 1294
+            }
+          },
+          {
+            "tag": "isOpen",
+            "type": 4,
+            "data": {
+              "tag": "isOpen",
+              "value": false
+            }
+          },
+          {
+            "tag": "cost",
+            "type": 1,
+            "data": {
+              "tag": "cost",
+              "value": 1
+            }
+          },
+          {
+            "tag": "zones",
+            "type": 5,
+            "data": {
+              "tag": "zones",
+              "list": []
+            }
+          },
+          {
+            "tag": "doorID",
+            "type": 2,
+            "data": {
+              "tag": "doorID",
+              "value": "tmpdoor"
+            }
+          }
+        ]
+      },
+      {
+        "tag": "gunStoreCount",
+        "type": 1,
+        "data": {
+          "tag": "gunStoreCount",
+          "value": 1
+        }
+      },
+      {
+        "tag": "type",
+        "type": 2,
+        "data": {
+          "tag": "type",
+          "value": "inf"
+        }
+      },
+      {
+        "tag": "randomSpawnSize",
+        "type": 1,
+        "data": {
+          "tag": "randomSpawnSize",
+          "value": 4
+        }
+      },
+      {
+        "tag": "zZoneCount",
+        "type": 1,
+        "data": {
+          "tag": "zZoneCount",
+          "value": 1
+        }
+      },
+      {
+        "tag": "zDoorCount",
+        "type": 1,
+        "data": {
+          "tag": "zDoorCount",
+          "value": 1
+        }
+      },
+      {
+        "tag": "name",
+        "type": 2,
+        "data": {
+          "tag": "name",
+          "value": "inf_cabin"
+        }
+      },
+      {
+        "tag": "blrandomSpawn3",
+        "type": 3,
+        "data": [
+          {
+            "tag": "blockLocation-YAW",
+            "type": 7,
+            "data": {
+              "tag": "blockLocation-YAW",
+              "value": 84.589355
+            }
+          },
+          {
+            "tag": "blockLocation-X",
+            "type": 6,
+            "data": {
+              "tag": "blockLocation-X",
+              "value": 2961.935417671963
+            }
+          },
+          {
+            "tag": "blockLocation-PITCH",
+            "type": 7,
+            "data": {
+              "tag": "blockLocation-PITCH",
+              "value": 0.21617046
+            }
+          },
+          {
+            "tag": "blockLocation-Z",
+            "type": 6,
+            "data": {
+              "tag": "blockLocation-Z",
+              "value": 1294.9106731589834
+            }
+          },
+          {
+            "tag": "blockLocation-Y",
+            "type": 6,
+            "data": {
+              "tag": "blockLocation-Y",
+              "value": 89.0
+            }
+          }
+        ]
+      },
+      {
+        "tag": "blrandomSpawn2",
+        "type": 3,
+        "data": [
+          {
+            "tag": "blockLocation-YAW",
+            "type": 7,
+            "data": {
+              "tag": "blockLocation-YAW",
+              "value": -29.20288
+            }
+          },
+          {
+            "tag": "blockLocation-X",
+            "type": 6,
+            "data": {
+              "tag": "blockLocation-X",
+              "value": 2923.5852646773096
+            }
+          },
+          {
+            "tag": "blockLocation-PITCH",
+            "type": 7,
+            "data": {
+              "tag": "blockLocation-PITCH",
+              "value": -0.08559911
+            }
+          },
+          {
+            "tag": "blockLocation-Z",
+            "type": 6,
+            "data": {
+              "tag": "blockLocation-Z",
+              "value": 1277.485616726801
+            }
+          },
+          {
+            "tag": "blockLocation-Y",
+            "type": 6,
+            "data": {
+              "tag": "blockLocation-Y",
+              "value": 91.0
+            }
+          }
+        ]
+      },
+      {
+        "tag": "teamSurvivors",
+        "type": 3,
+        "data": [
+          {
+            "tag": "teamName",
+            "type": 2,
+            "data": {
+              "tag": "teamName",
+              "value": "Survivors"
+            }
+          },
+          {
+            "tag": "teamSpawnsSize",
+            "type": 1,
+            "data": {
+              "tag": "teamSpawnsSize",
+              "value": 0
+            }
+          }
+        ]
+      },
+      {
+        "tag": "blrandomSpawn1",
+        "type": 3,
+        "data": [
+          {
+            "tag": "blockLocation-YAW",
+            "type": 7,
+            "data": {
+              "tag": "blockLocation-YAW",
+              "value": -110.97412
+            }
+          },
+          {
+            "tag": "blockLocation-X",
+            "type": 6,
+            "data": {
+              "tag": "blockLocation-X",
+              "value": 2908.7043202279965
+            }
+          },
+          {
+            "tag": "blockLocation-PITCH",
+            "type": 7,
+            "data": {
+              "tag": "blockLocation-PITCH",
+              "value": -0.23645437
+            }
+          },
+          {
+            "tag": "blockLocation-Z",
+            "type": 6,
+            "data": {
+              "tag": "blockLocation-Z",
+              "value": 1300.636031401139
+            }
+          },
+          {
+            "tag": "blockLocation-Y",
+            "type": 6,
+            "data": {
+              "tag": "blockLocation-Y",
+              "value": 88.0
+            }
+          }
+        ]
+      },
+      {
+        "tag": "map",
+        "type": 2,
+        "data": {
+          "tag": "map",
+          "value": "Cabin"
+        }
+      },
+      {
+        "tag": "blrandomSpawn0",
+        "type": 3,
+        "data": [
+          {
+            "tag": "blockLocation-YAW",
+            "type": 7,
+            "data": {
+              "tag": "blockLocation-YAW",
+              "value": -152.31262
+            }
+          },
+          {
+            "tag": "blockLocation-X",
+            "type": 6,
+            "data": {
+              "tag": "blockLocation-X",
+              "value": 2934.16246085921
+            }
+          },
+          {
+            "tag": "blockLocation-PITCH",
+            "type": 7,
+            "data": {
+              "tag": "blockLocation-PITCH",
+              "value": 3.0825353
+            }
+          },
+          {
+            "tag": "blockLocation-Z",
+            "type": 6,
+            "data": {
+              "tag": "blockLocation-Z",
+              "value": 1312.7222519858767
+            }
+          },
+          {
+            "tag": "blockLocation-Y",
+            "type": 6,
+            "data": {
+              "tag": "blockLocation-Y",
+              "value": 90.0
+            }
+          }
+        ]
+      },
+      {
+        "tag": "zZone0",
+        "type": 3,
+        "data": [
+          {
+            "tag": "zSpawnCount",
+            "type": 1,
+            "data": {
+              "tag": "zSpawnCount",
+              "value": 40
+            }
+          },
+          {
+            "tag": "zSpawn3",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": 113.70508
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2964.411749225558
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 6.552381
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1315.046496893155
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 88.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn23",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": -50.450684
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2912.548421256319
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": -1.7452204
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1282.2749238540516
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 91.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn4",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": 116.11865
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2961.664348079564
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 3.8368425
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1320.947305547525
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 87.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn24",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": -66.744385
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2916.5567648803603
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 12.285057
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1279.57723939135
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 91.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn1",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": 110.086426
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2970.7605646150478
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 2.6299384
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1307.3098345949666
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 87.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn21",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": -79.72339
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2900.15695497931
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 19.37566
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1294.300000011921
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 91.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn2",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": 110.086426
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2966.32329763345
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 2.6299384
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1307.8343666982557
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 87.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn22",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": -49.097412
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2907.3226986060704
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 6.8539834
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1286.8798719105837
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 91.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn7",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": 159.42017
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2945.839629419801
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": -0.3873381
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1332.0233463904303
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 87.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn27",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": -27.062256
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2930.96124356347
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 7.9099774
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1267.5045965896525
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 92.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn8",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": 179.93701
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2940.007206259198
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 5.1945996
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1331.9736517151214
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 87.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn28",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": -5.1853027
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2936.18575821827
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 11.681542
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1267.4662472212226
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 92.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn5",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": 129.0918
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2957.219796603506
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 2.629938
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1325.036439070977
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 87.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn25",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": -49.241943
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2919.007224357641
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 1.121171
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1274.1825730365267
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 92.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn6",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": 123.81421
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2951.749830390612
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 3.987702
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1329.005310493
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 87.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn26",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": -38.076416
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2925.023197724918
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 9.116904
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1270.0135571351764
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 92.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn9",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": -162.86621
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2933.5478391027473
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 1.4230173
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1332.7699949463783
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 89.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn29",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": -5.1853027
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2938.1669240728907
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 11.681542
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1270.0571448175222
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 91.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zID",
+            "type": 2,
+            "data": {
+              "tag": "zID",
+              "value": "main"
+            }
+          },
+          {
+            "tag": "zSpawn30",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": 15.487061
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2945.193896320895
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": -2.34874
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1270.7544516141058
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 91.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn0",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": 103.75391
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2971.8313286348675
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": -1.1416056
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1302.4774484960876
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 87.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn31",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": 19.259033
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2949.5560857668993
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 1.4228396
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1273.065520770504
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 91.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn12",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": -149.28833
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2918.143069666648
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 0.21608303
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1327.5122588513455
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 88.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn34",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": 32.38257
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2962.473535882615
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 9.267725
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1282.8110981330942
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 90.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn13",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": -130.57983
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2914.6208896564467
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": -0.08564459
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1325.908937432501
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 88.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn35",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": 24.839355
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2966.278749628732
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 10.62549
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1286.4077373465261
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 90.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn10",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": -150.34277
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2928.760690464284
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": -0.689071
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1329.5472384430054
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 89.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn32",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": 10.810303
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2955.41915630916
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 3.2331986
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1275.2793831313352
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 91.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn11",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": -158.64087
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2924.379497449438
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 7.7592673
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1327.3528853028083
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 89.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn33",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": 31.628662
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2959.363132183588
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 8.664276
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1278.4120815737244
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 91.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn16",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": -104.63037
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2906.998663195561
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 11.530806
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1316.3347846929914
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 88.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn38",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": 39.019043
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2973.9809179702843
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 21.940199
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1298.1416788922672
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 89.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn17",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": -130.42798
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2904.300000011921
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 4.591087
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1312.9690443033235
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 88.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn39",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": 145.97656
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2951.7190994009497
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 3.0823092
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1321.8541080209964
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 87.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn14",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": -129.67407
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2910.5569451197557
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 5.948879
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1325.2074488327416
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 89.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn36",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": 50.63672
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2971.8527157706403
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 2.931441
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1289.6296024622131
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 90.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn15",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": -123.791504
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2908.6013762613215
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 10.927353
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1321.0250272331862
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 89.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn37",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": 61.799072
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2972.435421304076
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 19.978956
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1295.2788368812298
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 89.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn18",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": -117.90332
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2903.0405232723065
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 7.4574804
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1309.1679841189646
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 89.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zSpawn19",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": -134.04004
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2899.903515598647
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 5.4962497
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1305.300000011921
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 89.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "zActive",
+            "type": 4,
+            "data": {
+              "tag": "zActive",
+              "value": false
+            }
+          },
+          {
+            "tag": "zSpawn20",
+            "type": 3,
+            "data": [
+              {
+                "tag": "zID",
+                "type": 2,
+                "data": {
+                  "tag": "zID",
+                  "value": "main"
+                }
+              },
+              {
+                "tag": "blzLoc",
+                "type": 3,
+                "data": [
+                  {
+                    "tag": "blockLocation-YAW",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-YAW",
+                      "value": -95.56616
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-X",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-X",
+                      "value": 2897.300000011921
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-PITCH",
+                    "type": 7,
+                    "data": {
+                      "tag": "blockLocation-PITCH",
+                      "value": 7.608334
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Z",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Z",
+                      "value": 1300.300000011921
+                    }
+                  },
+                  {
+                    "tag": "blockLocation-Y",
+                    "type": 6,
+                    "data": {
+                      "tag": "blockLocation-Y",
+                      "value": 90.0
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "bllobby",
+        "type": 3,
+        "data": [
+          {
+            "tag": "blockLocation-YAW",
+            "type": 7,
+            "data": {
+              "tag": "blockLocation-YAW",
+              "value": -32.30298
+            }
+          },
+          {
+            "tag": "blockLocation-X",
+            "type": 6,
+            "data": {
+              "tag": "blockLocation-X",
+              "value": 2932.3904928840548
+            }
+          },
+          {
+            "tag": "blockLocation-PITCH",
+            "type": 7,
+            "data": {
+              "tag": "blockLocation-PITCH",
+              "value": 7.910167
+            }
+          },
+          {
+            "tag": "blockLocation-Z",
+            "type": 6,
+            "data": {
+              "tag": "blockLocation-Z",
+              "value": 1308.871889115232
+            }
+          },
+          {
+            "tag": "blockLocation-Y",
+            "type": 6,
+            "data": {
+              "tag": "blockLocation-Y",
+              "value": 91.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

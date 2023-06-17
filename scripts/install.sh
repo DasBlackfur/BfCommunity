@@ -37,4 +37,6 @@ cp ./bf.jar ~/ServerInstance/mods/
 
 cp ../config/server.properties ~/ServerInstance/
 
+cd ../world_repo/ || exit 1
+
 echo "INSTALLATION FINISHED YOU CAN RUN THE run.sh FILE NOW!"
