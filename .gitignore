@@ -1,4 +1,4 @@
 ServerInstance
-tmp
+./tmp
 world_repo/worlds/*
 world_repo/tmp/*
