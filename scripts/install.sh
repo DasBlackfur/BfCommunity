@@ -38,5 +38,11 @@ cp ./bf.jar ~/ServerInstance/mods/
 cp ../config/server.properties ~/ServerInstance/
 
 cd ../world_repo/ || exit 1
+python3 ../scripts/world-splice.py
+
+mkdir -p ~/ServerInstance/blockfront/assets
+cp -r tmp/assets/* ~/ServerInstance/blockfront/assets/
+
+cp -r tmp/world ~/ServerInstance/world
 
 echo "INSTALLATION FINISHED YOU CAN RUN THE run.sh FILE NOW!"
