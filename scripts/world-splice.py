@@ -39,7 +39,13 @@ shutil.copytree("./world_template", "./tmp/world")
 os.makedirs("./tmp/assets/maps")
 os.mkdir("./tmp/assets/games")
 
+map_rotation = {}
+
 for i, built_map in enumerate(built_maps):
+    if not built_map.private:
+        if built_map.mode not in map_rotation:
+            map_rotation[built_map.mode] = []
+        map_rotation[built_map.mode].append(built_map.name)
     row, col = convert_index_to_2d(i, int(sqrt(len(built_maps))))
     os.system(f"minecraft-world-splicer"
               f" --source-world=worlds/{built_map.world_path}"
@@ -68,9 +74,17 @@ for i, built_map in enumerate(built_maps):
                             if "Z" in sub_tag["tag"]:
                                 sub_tag["data"]["value"] += (col - built_map.cords[1] * 16)
                     if built_map.private:
+                        if tag["tag"] == "name":
+                            tag["data"][
+                                "value"] = f"{built_map.mode}_{built_map.name.lower()}{'_private' if built_map.private else ''}"
                         if tag["tag"] == "map":
                             tag["data"]["value"] = f"{built_map.name} - Private"
-    with open(f"tmp/assets/games/{built_map.mode}_{built_map.name.lower()}{'_private' if built_map.private else ''}.json", "w") as writefile:
+    with open(
+            f"tmp/assets/games/{built_map.mode}_{built_map.name.lower()}{'_private' if built_map.private else ''}.json",
+            "w") as writefile:
         json.dump(game_json, writefile)
-
-print("Debug")
+with open("../config/patch.maps.json", "r") as readfile:
+    map_json = json.load(readfile)
+    map_json["maps"] = map_rotation
+with open("../config/patch.maps.json", "w") as writefile:
+    json.dump(map_json, writefile)

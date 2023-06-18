@@ -29,20 +29,20 @@ echo 'java @user_jvm_args.txt @libraries/net/minecraftforge/forge/1.19.4-45.0.66
 rm -rf ./tmp
 mkdir -p ./tmp
 
-curl $BF_MOD_URL -o ./tmp/bf.jar
-cd ./tmp || exit 1
-python3 ../scripts/patch.py
-mkdir -p ~/ServerInstance/mods
-cp ./bf.jar ~/ServerInstance/mods/
-
-cp ../config/server.properties ~/ServerInstance/
-
-cd ../world_repo/ || exit 1
+cd ./world_repo/ || exit 1
 python3 ../scripts/world-splice.py
 
 mkdir -p ~/ServerInstance/blockfront/assets
 cp -r tmp/assets/* ~/ServerInstance/blockfront/assets/
 
 cp -r tmp/world ~/ServerInstance/world
+
+curl $BF_MOD_URL -o ../tmp/bf.jar
+cd ../tmp || exit 1
+python3 ../scripts/patch.py
+mkdir -p ~/ServerInstance/mods
+cp ./bf.jar ~/ServerInstance/mods/
+
+cp ../config/server.properties ~/ServerInstance/
 
 echo "INSTALLATION FINISHED YOU CAN RUN THE run.sh FILE NOW!"

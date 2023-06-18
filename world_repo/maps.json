@@ -12,11 +12,15 @@
     "modes": ["inf"],
     "world": {
       "name": "kk_maps",
-      "x": 180,
-      "z": 78,
-      "w": 7,
-      "d": 6,
       "cords": [180, 78, 7, 6]
+    }
+  },
+  {
+    "name": "Sewers",
+    "modes": ["inf"],
+    "world": {
+      "name": "kk_maps",
+      "cords": [162, 70, 7, 5]
     }
   }
 ]
