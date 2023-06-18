@@ -19,6 +19,24 @@ def convert_index_to_2d(index, num_columns):
     return int_row, int_col
 
 
+def search_for_relocatable(parent):
+    for tag in parent:
+        if isinstance(tag["data"], list):
+            search_for_relocatable(tag["data"])
+        if "X" in tag["tag"]:
+            tag["data"]["value"] += (row * largest_edge * 16 - built_map.cords[0] * 16)
+        if "Z" in tag["tag"] and not "Zone" in tag["tag"]:
+            tag["data"]["value"] += (col * largest_edge * 16 - built_map.cords[1] * 16)
+
+
+def search_for_renamable(parent, tag_name, replace):
+    for tag in parent:
+        if isinstance(tag["data"], list):
+            search_for_renamable(tag["data"], tag_name, replace)
+        if tag["tag"] == tag_name:
+            tag["data"]["value"] = replace
+
+
 with open("maps.json", "r") as readfile:
     raw_maps = json.load(readfile)
 
@@ -56,40 +74,15 @@ for i, built_map in enumerate(built_maps):
     with open(f"games_and_maps/{built_map.name}.json", "r") as readfile:
         map_json = json.load(readfile)
         if built_map.private:
-            for j, tag in enumerate(map_json):
-                if tag["tag"] == "name":
-                    tag["data"]["value"] = f"{built_map.name} - Private"
-                    map_json[j] = tag
-    with open(f"tmp/assets/maps/{i}_map.json", "w") as writefile:
+            search_for_renamable(map_json, "name", f"{built_map.name}-Private")
+    with open(f"tmp/assets/maps/{built_map.name}{'-Private' if built_map.private else ''}.json", "w") as writefile:
         json.dump(map_json, writefile)
     with open(f"games_and_maps/{built_map.mode}_{built_map.name.lower()}.json") as readfile:
         game_json = json.load(readfile)
-        for tl_tag in game_json:
-            if tl_tag["tag"] == "gameTag":
-                for tag in tl_tag["data"]:
-                    if isinstance(tag["data"], list):
-                        for sub_tag in tag["data"]:
-                            if "zSpawn" in sub_tag["tag"]:
-                                for sub_sub_tag in sub_tag["data"]:
-                                    try:
-                                        if sub_sub_tag["tag"] == "blzLoc":
-                                            for sub_sub_sub_tag in sub_sub_tag["data"]:
-                                                if "X" in sub_sub_sub_tag["tag"]:
-                                                    sub_sub_sub_tag["data"]["value"] += (row * largest_edge * 16 - built_map.cords[0] * 16)
-                                                if "Z" in sub_sub_sub_tag["tag"]:
-                                                    sub_sub_sub_tag["data"]["value"] += (col * largest_edge * 16 - built_map.cords[1] * 16)
-                                    except Exception:
-                                        pass
-                            if "X" in sub_tag["tag"]:
-                                sub_tag["data"]["value"] += (row * largest_edge * 16 - built_map.cords[0] * 16)
-                            if "Z" in sub_tag["tag"]:
-                                sub_tag["data"]["value"] += (col * largest_edge * 16 - built_map.cords[1] * 16)
-                    if built_map.private:
-                        if tag["tag"] == "name":
-                            tag["data"][
-                                "value"] = f"{built_map.mode}_{built_map.name.lower()}{'_private' if built_map.private else ''}"
-                        if tag["tag"] == "map":
-                            tag["data"]["value"] = f"{built_map.name} - Private"
+        search_for_relocatable(game_json)
+        if built_map.private:
+            search_for_renamable(game_json, "name", f"{built_map.mode}_{built_map.name.lower()}{'_private' if built_map.private else ''}")
+            search_for_renamable(game_json, "map", f"{built_map.name}-Private")
     with open(
             f"tmp/assets/games/{built_map.mode}_{built_map.name.lower()}{'_private' if built_map.private else ''}.json",
             "w") as writefile:
