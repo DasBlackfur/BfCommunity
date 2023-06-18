@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 FORGE_INSTALLER_URL="https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.4-45.0.66/forge-1.19.4-45.0.66-installer.jar"
 BF_MOD_URL="https://mediafilez.forgecdn.net/files/4557/476/BlockFront-1.19.4-0.1.9.0a-RELEASE.jar"
-DEB_DEPENDENCIES=( openjdk-17-jdk-headless python3 curl )
+DEB_DEPENDENCIES=( openjdk-17-jdk python3 curl )
 
 echo "BY RUNNING THIS INSTALLER YOU ACCEPT THE MINECRAFT EULA!"
 
@@ -32,8 +32,8 @@ mkdir -p ./tmp
 cd ./world_repo/ || exit 1
 python3 ../scripts/world-splice.py
 
-mkdir -p ~/ServerInstance/blockfront/assets
-cp -r tmp/assets/* ~/ServerInstance/blockfront/assets/
+mkdir -p ~/ServerInstance/blockfront/assets/server/
+cp -r tmp/assets/* ~/ServerInstance/blockfront/assets/server/
 
 cp -r tmp/world ~/ServerInstance/world
 

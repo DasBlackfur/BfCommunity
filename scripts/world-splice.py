@@ -69,10 +69,21 @@ for i, built_map in enumerate(built_maps):
                 for tag in tl_tag["data"]:
                     if isinstance(tag["data"], list):
                         for sub_tag in tag["data"]:
+                            if "zSpawn" in sub_tag["tag"]:
+                                for sub_sub_tag in sub_tag["data"]:
+                                    try:
+                                        if sub_sub_tag["tag"] == "blzLoc":
+                                            for sub_sub_sub_tag in sub_sub_tag["data"]:
+                                                if "X" in sub_sub_sub_tag["tag"]:
+                                                    sub_sub_sub_tag["data"]["value"] += (row * largest_edge * 16 - built_map.cords[0] * 16)
+                                                if "Z" in sub_sub_sub_tag["tag"]:
+                                                    sub_sub_sub_tag["data"]["value"] += (col * largest_edge * 16 - built_map.cords[1] * 16)
+                                    except Exception:
+                                        pass
                             if "X" in sub_tag["tag"]:
-                                sub_tag["data"]["value"] += (row - built_map.cords[0] * 16)
+                                sub_tag["data"]["value"] += (row * largest_edge * 16 - built_map.cords[0] * 16)
                             if "Z" in sub_tag["tag"]:
-                                sub_tag["data"]["value"] += (col - built_map.cords[1] * 16)
+                                sub_tag["data"]["value"] += (col * largest_edge * 16 - built_map.cords[1] * 16)
                     if built_map.private:
                         if tag["tag"] == "name":
                             tag["data"][
