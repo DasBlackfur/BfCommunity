@@ -5,6 +5,8 @@ DEB_DEPENDENCIES=( openjdk-17-jdk python3 curl )
 
 echo "BY RUNNING THIS INSTALLER YOU ACCEPT THE MINECRAFT EULA!"
 
+set -e
+
 sudo apt update
 for n in "${DEB_DEPENDENCIES[@]}"
 do
