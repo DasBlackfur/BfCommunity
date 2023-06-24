@@ -2,7 +2,7 @@
   "bf_patches": {
     "bf/bS/b": [
       ["L145:   ldc2_w 1e-1","L145:   ldc2_w 8e-1"],
-      ["L152:   aload_0\nL153:   getfield Field bf/bS/b dE Z", "L152:   iconst_1"]
+      ["L152:   aload_0\nL153:   getfield Field bf/bS/b dF Z", "L152:   iconst_1"]
     ],
     "bf/cg/a": [
       ["PRIVATE_SECOND_CLASS", "RECRUIT"],

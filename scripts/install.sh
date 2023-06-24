@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-FORGE_INSTALLER_URL="https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.4-45.0.66/forge-1.19.4-45.0.66-installer.jar"
-BF_MOD_URL="https://mediafilez.forgecdn.net/files/4557/476/BlockFront-1.19.4-0.1.9.0a-RELEASE.jar"
+FORGE_INSTALLER_URL="https://maven.minecraftforge.net/net/minecraftforge/forge/1.20-46.0.14/forge-1.20-46.0.14-installer.jar"
+BF_MOD_URL="https://mediafilez.forgecdn.net/files/4598/682/BlockFront-1.20.1-0.2.0.1a-RELEASE.jar"
 DEB_DEPENDENCIES=( openjdk-17-jdk python3 curl )
 
 echo "BY RUNNING THIS INSTALLER YOU ACCEPT THE MINECRAFT EULA!"
@@ -24,7 +24,7 @@ java -jar ~/ServerInstance/forge-installer.jar --installServer ~/ServerInstance
 
 echo "eula=true" > ~/ServerInstance/eula.txt
 rm ~/ServerInstance/run.sh
-echo 'java @user_jvm_args.txt @libraries/net/minecraftforge/forge/1.19.4-45.0.66/unix_args.txt nogui $@' > ~/ServerInstance/run.sh
+echo 'java @user_jvm_args.txt @libraries/net/minecraftforge/forge/1.20-46.0.14/unix_args.txt nogui $@' > ~/ServerInstance/run.sh
 
 rm -rf ./tmp
 mkdir -p ./tmp

@@ -22,7 +22,7 @@ class Patch:
 
 
 bfjarname = "bf.jar"
-libjarname = "library-2.4.3.jar"
+libjarname = "library-2.4.4.jar"
 bf_patchlist = []
 lib_patchlist = []
 

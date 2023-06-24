@@ -1,8 +1,8 @@
 {
   "shop_class": "bf/bS/e",
   "schema": [
-    "L2135:  getstatic Field bf/bS/e bn Ljava/util/List;\nL2138:  new bf/bz/e\nL2141:  dup\nL2142:  getstatic Field bf/cs/e kG Lnet/minecraftforge/registries/RegistryObject;\nL2145:  invokevirtual Method net/minecraftforge/registries/RegistryObject get ()Ljava/lang/Object;\nL2148:  checkcast net/minecraft/world/item/Item\nL2151:  sipush 500\nL2154:  invokespecial Method bf/bz/e <init> (Lnet/minecraft/world/item/Item;I)V\nL2157:  invokeinterface InterfaceMethod java/util/List add (Ljava/lang/Object;)Z 2\nL2162:  pop\n",
-    "kG",
+    "L2135:  getstatic Field bf/bS/e bn Ljava/util/List;\nL2138:  new bf/bz/e\nL2141:  dup\nL2142:  getstatic Field bf/cs/f kI Lnet/minecraftforge/registries/RegistryObject;\nL2145:  invokevirtual Method net/minecraftforge/registries/RegistryObject get ()Ljava/lang/Object;\nL2148:  checkcast net/minecraft/world/item/Item\nL2151:  sipush 500\nL2154:  invokespecial Method bf/bz/e <init> (Lnet/minecraft/world/item/Item;I)V\nL2157:  invokeinterface InterfaceMethod java/util/List add (Ljava/lang/Object;)Z 2\nL2162:  pop\n",
+    "kI",
     "500",
     [
       ["L2135","L3X35"],
@@ -18,6 +18,6 @@
     ]
   ],
   "items": [
-    ["ir", "100"]
+    ["iD", "100"]
   ]
 }
