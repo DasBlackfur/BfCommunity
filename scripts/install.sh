@@ -23,7 +23,6 @@ curl $FORGE_INSTALLER_URL -o ~/ServerInstance/forge-installer.jar
 java -jar ~/ServerInstance/forge-installer.jar --installServer ~/ServerInstance
 
 echo "eula=true" > ~/ServerInstance/eula.txt
-rm ~/ServerInstance/run.sh
 sed -i 's/\$\@/nogui \$\@/' ~/ServerInstance/run.sh
 
 rm -rf ./tmp
