@@ -24,7 +24,7 @@ java -jar ~/ServerInstance/forge-installer.jar --installServer ~/ServerInstance
 
 echo "eula=true" > ~/ServerInstance/eula.txt
 rm ~/ServerInstance/run.sh
-echo 'java @user_jvm_args.txt @libraries/net/minecraftforge/forge/1.20-46.0.14/unix_args.txt nogui $@' > ~/ServerInstance/run.sh
+sed -i 's/\$\@/nogui \$\@/' ~/ServerInstance/run.sh
 
 rm -rf ./tmp
 mkdir -p ./tmp
