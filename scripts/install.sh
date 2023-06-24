@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-FORGE_INSTALLER_URL="https://maven.minecraftforge.net/net/minecraftforge/forge/1.20-46.0.14/forge-1.20-46.0.14-installer.jar"
+FORGE_INSTALLER_URL="https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.0.19/forge-1.20.1-47.0.19-installer.jar"
 BF_MOD_URL="https://mediafilez.forgecdn.net/files/4598/682/BlockFront-1.20.1-0.2.0.1a-RELEASE.jar"
 DEB_DEPENDENCIES=( openjdk-17-jdk python3 curl )
 
